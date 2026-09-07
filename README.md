@@ -1,8 +1,16 @@
-# fyntrack
+# FynTrack
 
-Premium finance calculator hub for fyntrack.in.
+Premium, privacy-first finance calculators built with React + TypeScript + Vite.
 
-## Run
+## Included tools
+- Everyday Calculator
+- FD Calculator
+- RD Calculator
+- SIP Calculator
+- Investment Growth Calculator
+- Petrol Cost Calculator
+
+## Development
 ```bash
 npm install
 npm run dev
@@ -11,15 +19,11 @@ npm run dev
 ## Production build
 ```bash
 npm run build
-npm run preview
 ```
 
-## Git
-```bash
-git init
-git add .
-git commit -m "Launch fyntrack calculator hub"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/fyntrack.git
-git push -u origin main
-```
+## GitHub Pages
+The repository includes a GitHub Actions workflow at `.github/workflows/deploy.yml`.
+The Vite base path is configured for the repository deployment at `/fyntrack/`.
+
+## Brand
+The visible homepage brand is **FynTrack**. The repository/domain slug remains `fyntrack`.

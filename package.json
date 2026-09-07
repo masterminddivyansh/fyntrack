@@ -1,7 +1,7 @@
 {
   "name": "fyntrack",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,15 +10,15 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
-    "lucide-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "recharts": "latest",
-    "typescript": "latest",
-    "vite": "latest"
+    "lucide-react": "latest",
+    "recharts": "latest"
   },
   "devDependencies": {
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.7"
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
   }
 }
