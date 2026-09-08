@@ -1,1 +1,7 @@
 /// <reference types="vite/client" />
+
+// Explicitly declare stylesheet side-effect imports for strict TypeScript builds.
+declare module '*.css';
+declare module '*.scss';
+declare module '*.sass';
+declare module '*.less';
